@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HomePage - SAW - Labo2 </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<br>
+<div id="header">
+    <a href="index.html">
+        <img id="logo" alt="Website Logo" src="images/logo.png">
+    </a>
+</div>
+
+<div id="header-menu">
+    <div id="left-ones">
+        <a href="index.html" class="button">Home</a>
+        <a href="services.html" class="button">Servizi</a>
+        <a href="howitworks.html" class="button">Come Funziona</a>
+    </div>
+    <div id="right-ones">
+        <a href="login.html" class="button">Login</a>
+        <a href="register.html" class="button">Registrati</a>
+        <a class="button">Logout</a>
+        <a href="contactus.html" class="button">Contattaci</a>
+    </div>
+</div>
+
+
+    <form action="server_action.php" method="post">
+        <input type="email" id="email" name="email" placeholder="Email"><br>
+        <input type="password" id="password" name="password" placeholder="Password"> <br><br>
+        <input type="submit" id="formButton" value="Login">
+    </form>
+
+</body>
+</html>
